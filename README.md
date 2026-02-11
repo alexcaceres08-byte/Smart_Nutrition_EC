@@ -1,4 +1,4 @@
-```markdown
+
 # Smart Nutrition AI: Classification and Nutritional Recommendation of Ecuadorian Products
 
 ## 1. ABSTRACT
@@ -130,5 +130,6 @@ The MLOps system allows monitoring the evolution of the model. The tabulated res
 * **GitHub Profile:** https://github.com/alexcaceres08-byte/Smart_Nutrition_EC
 
 ```
+
 
 ```
