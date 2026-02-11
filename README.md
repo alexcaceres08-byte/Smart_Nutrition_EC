@@ -57,8 +57,6 @@ Process:
        - Export physical model 'model_v{V}.pkl'
 Output: Updated model deployed hot to Streamlit
 
-```
-
 ## 4. EXPERIMENTAL DESIGN
 
 This section details the characteristics of the collected data and the optimization configuration.
@@ -127,5 +125,6 @@ The MLOps system allows monitoring the evolution of the model. The tabulated res
 
 
 ```
+
 
 
