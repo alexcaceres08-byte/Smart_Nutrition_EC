@@ -3,7 +3,7 @@ import pathlib
 import time
 import os
 
-# --- 0. CORRECCIÓN ERROR GIT ---
+
 os.environ["GIT_PYTHON_REFRESH"] = "quiet"
 
 import pandas as pd
@@ -388,4 +388,5 @@ if uploaded_file:
                         c1.markdown(f"<span style='color:black; font-weight:bold;'>{label.upper()}: {prob:.1%}</span>", unsafe_allow_html=True)
                         c2.progress(prob)
 else:
+
     st.info("👆 Sube una foto de tus ingredientes para comenzar.")
