@@ -34,14 +34,12 @@ graph TD
 **Table 1. Method Parameters**
 
 | Parameter | Value / Description |
+| :--- | :--- |
 | **Base Architecture** | ResNet18 (Pre-trained on ImageNet) |
-|
 | **Input Shape** | 224 x 224 pixels (RGB) |
-|
 | **Technique** | Transfer Learning (Fine-Tuning of last layers) |
-|
 | **Primary Metric** | `accuracy_multi` (Multi-label classification) |
-| **Data Augmentation** | RandomResizeCrop, Rotation, Zoom (FastAI defaults) |
+| **Data Augmentation** | RandomResizeCrop, Rotation, Zoom (FastAI defaults) | | RandomResizeCrop, Rotation, Zoom (FastAI defaults) |
 
 **Algorithm 1: Active Learning Retraining Cycle**
 
@@ -129,4 +127,5 @@ The MLOps system allows monitoring the evolution of the model. The tabulated res
 
 
 ```
+
 
