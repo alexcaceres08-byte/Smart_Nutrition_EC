@@ -56,6 +56,7 @@ Process:
        - Log metrics to MLflow (Accuracy, Loss)
        - Export physical model 'model_v{V}.pkl'
 Output: Updated model deployed hot to Streamlit
+```
 
 ## 4. EXPERIMENTAL DESIGN
 
@@ -125,6 +126,7 @@ The MLOps system allows monitoring the evolution of the model. The tabulated res
 
 
 ```
+
 
 
 
